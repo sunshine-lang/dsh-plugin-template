@@ -57,6 +57,10 @@ pnpm dsh --profile web --patch ./scratch-plugin/dsh-myplugin/cordis.patch.yml
 - **Node resolution**: relative imports use `.js` extensions (NodeNext ESM); `@deepseek-ai/*` deps are declared in `dependencies` and resolve from the profile's node_modules.
 - **`npm install` in a subdirectory of a pnpm workspace fails** (`workspace:` protocol) — scaffold outside the harness checkout for standalone work, or keep the local build inside the checkout with `tsconfig.local.json`.
 
+## More plugins by this author
+
+All DeepSeek Harness plugins by this author, in one place: [dsh-plugins](https://github.com/sunshine-lang/dsh-plugins)
+
 ## License
 
 MIT.
