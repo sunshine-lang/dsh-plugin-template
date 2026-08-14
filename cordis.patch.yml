@@ -1,0 +1,3 @@
+- insert:
+    - id: {{NAME}}
+      name: {{NAME}}

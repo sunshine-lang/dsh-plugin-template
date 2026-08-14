@@ -1,0 +1,6 @@
+node_modules/
+package-lock.json
+.npm-cache/
+.pnpm-store/
+.pnpm-cache/
+*.tgz
