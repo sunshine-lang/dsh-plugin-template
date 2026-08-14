@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url'
 
 const TEMPLATE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const EXCLUDED = new Set(['.git', 'node_modules', 'scripts'])
-const TOKEN_FILES = ['package.json', 'cordis.patch.yml', 'README.md', 'LICENSE', 'src/index.ts', 'test-integration.ts']
+const TOKEN_FILES = ['package.json', 'cordis.patch.yml', 'README.md', 'README.en.md', 'LICENSE', 'src/index.ts', 'test-integration.ts']
 
 function fail(message) {
   console.error(`scaffold: ${message}`)
